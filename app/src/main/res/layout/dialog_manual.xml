@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/popup">
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical">
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:text="⚠ 작업자 행동 매뉴얼 ⚠"
+            android:textSize="18dp"
+            android:textColor="#272424" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="체온 상승 시. 산소를 공급하고 휴식을 권장합니다."
+            android:textColor="#272424"
+            android:textSize="13dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="자외선 장시간 노출 시, 현장을 벗어나 휴식을 권장합니다."
+            android:textColor="#272424"
+            android:textSize="13dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="산소포화도 저하 시, 쿨링 가동 후 휴식을 권장합니다."
+            android:textColor="#272424"
+            android:textSize="13dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="심박수 이상  시, 휴식을 권장합니다."
+            android:textColor="#272424"
+            android:textSize="13dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="유해가스 이상 시, 작업장을 환기하고 휴식을 권장합니다."
+            android:textColor="#272424"
+            android:textSize="13dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="과반수 불꽃 감지 시, 화재를 주의하고 현장을 살피세요."
+            android:textColor="#272424"
+            android:textSize="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+            <android.widget.Button
+                android:background="@drawable/round_button3"
+                android:textColor="#FFFFFF"
+                android:textSize="13dp"
+                android:id="@+id/ok"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:text="확인" />
+            <android.widget.Button
+                android:background="@drawable/round_button2"
+                android:layout_marginLeft="17dp"
+                android:textColor="#FFFFFF"
+                android:textSize="13dp"
+                android:id="@+id/admin"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:text="관리자 연결" />
+    </LinearLayout>
+</LinearLayout>

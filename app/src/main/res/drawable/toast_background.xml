@@ -1,0 +1,5 @@
+<!-- rounded_corner_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="15dp" /> <!-- 여기서 10dp는 둥근 정도를 조절하는 값입니다. -->
+    <solid android:color="#A5A5A5" /> <!-- 배경색을 지정합니다. -->
+</shape>

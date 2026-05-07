@@ -1,0 +1,26 @@
+<!-- custom_toast.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/toast_background"
+    android:padding="10dp">
+    <ImageView
+        android:id="@+id/toast_image"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/green" /> <!-- 여기서 "your_custom_image"를 실제 이미지 리소스로 대체하세요. -->
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/toast_text"
+        android:text="야야"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="8dp" />
+</LinearLayout>

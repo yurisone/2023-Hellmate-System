@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="7dp">
+        <TextView
+            android:id = "@+id/name"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="작업자 이름"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#686868" />
+        <TextView
+            android:gravity="left"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:paddingRight="15dp"
+            android:id="@+id/st_shape"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/gray" />
+    </LinearLayout>
+</LinearLayout>

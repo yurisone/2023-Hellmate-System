@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:weightSum="11"
+    tools:context=".Safetyrule_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:background="#E0E0E0">
+        <ImageButton
+            android:padding="5dp"
+            android:background="#E0E0E0"
+            android:src="@drawable/back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:id="@+id/back_btn"/>
+        <TextView
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="안전 수칙 안내"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#272424"
+            android:gravity="center"
+            />
+        <ImageButton
+            android:padding="5dp"
+            android:background="#E0E0E0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/next"
+            android:id="@+id/next_btn"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/checktext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="수칙 안내를 확인 해주세요"
+        android:textColor="#4A4A4A"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp">
+
+        <CheckBox
+            android:textColor="#191919"
+            android:id="@+id/notion1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="1. 용접작업시 물기 있는 장갑, 작업복, 신발을 착용하지 않아야한다. " />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp">
+
+        <CheckBox
+            android:textColor="#191919"
+            android:id="@+id/notion2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="2. 용접기를 사용하지 않을 때에는 전원을 차단하고 케이블을 정리하여 보관한다." />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp">
+
+        <CheckBox
+            android:textColor="#191919"
+            android:id="@+id/notion3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="3. 봉접봉 홀더는 절연커버가 파손되지 않은 것을 사용해야한다." />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp">
+
+        <CheckBox
+            android:textColor="#191919"
+            android:id="@+id/notion4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="4. 작업시 작업에 필요한 보호구인 안전화, 안전모, 장갑, 보안면, 보안경, 마스크를 착용하여야한다." />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp">
+
+        <CheckBox
+            android:textColor="#191919"
+            android:id="@+id/notion5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="5. 인화, 발화성물질이 있는가 확인한다." />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp">
+
+        <CheckBox
+            android:textColor="#191919"
+            android:id="@+id/notion6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="6. 작업장에는 화재에 대비하여 소화기를 비치하여야 한다." />
+
+    </LinearLayout>
+
+
+</LinearLayout>
